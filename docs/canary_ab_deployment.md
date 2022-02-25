@@ -38,7 +38,7 @@ You don't need to create any Istio resources (e.g. Gateway or VirtualService) at
 
 ## Set up variables
 
-There are some extra variables that you need to setup in ***devopsforai-aml-vg*** variable group (see [getting started](./getting_started.md)):
+There are some extra variables that you need to setup in ***devopsYngve-aml-vg*** variable group (see [getting started](./getting_started.md)):
 
 | Variable Name             | Suggested Value       | Short Description                                         |
 |---------------------------|-----------------------|-----------------------------------------------------------|

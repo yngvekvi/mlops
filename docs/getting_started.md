@@ -3,7 +3,7 @@
 This guide shows how to get MLOpsPython working with a sample ML project **_diabetes_regression_**. The project creates a linear regression model to predict diabetes and has CI/CD DevOps practices enabled for model training and serving when these steps are completed in this getting started guide.
 
 If you would like to bring your own model code to use this template structure, follow the [custom model](custom_model.md) guide. We recommend completing this getting started guide with the diabetes model through ACI deployment first to ensure everything is working in your environment before converting the template to use your own model code.
-
+tull
 - [Setting up Azure DevOps](#setting-up-azure-devops)
   - [Install the Azure Machine Learning extension](#install-the-azure-machine-learning-extension)
 - [Get the code](#get-the-code)
@@ -52,7 +52,7 @@ Navigate to **Library** in the **Pipelines** section as indicated below:
 
 ![Library Variable Groups](./images/library_variable_groups.png)
 
-Create a variable group named **`devopsforai-aml-vg`**. The YAML pipeline definitions in this repository refer to this variable group by name.
+Create a variable group named **`devopsYngve-aml-vg`**. The YAML pipeline definitions in this repository refer to this variable group by name.
 
 The variable group should contain the following required variables. **Azure resources that don't exist yet will be created in the [Provisioning resources using Azure Pipelines](#provisioning-resources-using-azure-pipelines) step below.**
 
@@ -345,7 +345,7 @@ Creating a cluster on Azure Kubernetes Service is out of scope of this tutorial,
 
 Keep the Azure Container Instances deployment active because it's a lightweight way to validate changes before deploying to Azure Kubernetes Service.
 
-In the Variables tab, edit your variable group (`devopsforai-aml-vg`). In the variable group definition, add these variables:
+In the Variables tab, edit your variable group (`devopsYngve-aml-vg`). In the variable group definition, add these variables:
 
 | Variable Name       | Suggested Value | Description | 
 | ------------------- | --------------- | ----------- |
@@ -372,7 +372,7 @@ If you want to deploy your scoring service as an [Azure App Service](https://doc
 
 - Second, you'll need to create a webapp in this App Service Plan, and configure it to run a certain container. As currently there is no UI in the Azure Portal to do this, this has to be done from the command line. We'll come back to this.
 
-- In the Variables tab, edit your variable group (`devopsforai-aml-vg`) and add a variable:
+- In the Variables tab, edit your variable group (`devopsYngve-aml-vg`) and add a variable:
 
   | Variable Name          | Suggested Value        |
   | ---------------------- | ---------------------- |

@@ -18,7 +18,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-- group: devopsforai-aml-vg
+- group: devopsYngve-aml-vg
 
 steps:
 - task: charleszipp.azure-pipelines-tasks-terraform.azure-pipelines-tasks-terraform-installer.TerraformInstaller@0
