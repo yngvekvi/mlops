@@ -19,7 +19,7 @@ trigger:
 
 variables:
 - template: diabetes_regression-variables-template.yml
-- group: devopsforai-aml-vg
+- group: devopsYngve-aml-vg
 
 pool:
   vmImage: ubuntu-latest

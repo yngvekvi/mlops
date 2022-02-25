@@ -25,7 +25,7 @@ resources:
 
 variables:
 - template: diabetes_regression-variables-template.yml
-- group: devopsforai-aml-vg
+- group: devopsYngve-aml-vg
 
 stages:
 - stage: 'Deploy_ACI'
