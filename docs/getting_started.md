@@ -3,7 +3,7 @@
 This guide shows how to get MLOpsPython working with a sample ML project **_diabetes_regression_**. The project creates a linear regression model to predict diabetes and has CI/CD DevOps practices enabled for model training and serving when these steps are completed in this getting started guide.
 
 If you would like to bring your own model code to use this template structure, follow the [custom model](custom_model.md) guide. We recommend completing this getting started guide with the diabetes model through ACI deployment first to ensure everything is working in your environment before converting the template to use your own model code.
-
+tull
 - [Setting up Azure DevOps](#setting-up-azure-devops)
   - [Install the Azure Machine Learning extension](#install-the-azure-machine-learning-extension)
 - [Get the code](#get-the-code)
